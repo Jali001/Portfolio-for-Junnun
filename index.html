@@ -7,14 +7,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Junnun Ali's Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tablet.css" media="screen and (max-width:800px)">
+    <link rel="stylesheet" href="phone.css" media="screen and (max-width:530px)">
 </head>
 <body>
     <nav class ="navbar">
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About Me</a></li>
-            <li> <a href="#">My Work</a></li>
-            <li><a href="#">Contact Me</a></li>
+            <li> <a href="#my-work">My Work</a></li>
+            <li><a href="#contact">Contact Me</a></li>
         </ul>
     </nav>
         
@@ -52,11 +54,36 @@
                 <img class="project-img" src="images/horiseon.png" alt="">
              </a>
         </div>
+        <div class="project"> 
+            <h3>Password Generator</h3>
+            <a href="https://jali001.github.io/Password-Generator/">
+                <img class="project-img" src="images/passwordgen.png" alt="">
+             </a>
+        </div>
+
+        <div class="project"> 
+            <h3>First Project: Sip&Chow</h3>
+            <a href="https://jali001.github.io/Project-1-Sip-Chow/">
+                <img class="project-img" src="images/project-1.png" alt="">
+             </a>
+        </div>
             
     </div>    
 
 </section>
 
+<section id="contact">
+    <h1 class="headings">Contact Me</h1>
+    <div id="contact-container">
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter Your Name">
+            <input type="email" name="email" class="input" placeholder="Enter Your Email">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Enter your message..."></textarea>
+            <input type="submit" value="SEND" id="send">
+        </form>
+    </div>    
+
+</section>
 
  
 
